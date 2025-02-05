@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
   <defs>
     <clipPath id="clip-path">
@@ -8,3 +9,15 @@
     <path id="facebook_5_" data-name="facebook (5)" d="M77.138,0h-63.9A13.255,13.255,0,0,0,0,13.239v63.9A13.255,13.255,0,0,0,13.239,90.377H39.893V58.427H29.3V42.541H39.893V31.773A15.9,15.9,0,0,1,55.78,15.887H71.843V31.773H55.78V42.541H71.843L69.195,58.427H55.78v31.95H77.138A13.255,13.255,0,0,0,90.377,77.138v-63.9A13.255,13.255,0,0,0,77.138,0Zm0,0" transform="translate(332 3607)" fill="#31b2ff"/>
   </g>
 </svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="90" viewBox="0 0 90 90">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_17" data-name="Rectangle 17" width="90" height="90" transform="translate(332 3607)" fill="#31b2ff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_11" data-name="Mask Group 11" transform="translate(-332 -3607)" clip-path="url(#clip-path)">
+    <path id="facebook_5_" data-name="facebook (5)" d="M77.138,0h-63.9A13.255,13.255,0,0,0,0,13.239v63.9A13.255,13.255,0,0,0,13.239,90.377H39.893V58.427H29.3V42.541H39.893V31.773A15.9,15.9,0,0,1,55.78,15.887H71.843V31.773H55.78V42.541H71.843L69.195,58.427H55.78v31.95H77.138A13.255,13.255,0,0,0,90.377,77.138v-63.9A13.255,13.255,0,0,0,77.138,0Zm0,0" transform="translate(332 3607)" fill="#31b2ff"/>
+  </g>
+</svg>
+>>>>>>> 9aef16f (oprava paddingov a hamburger menu)

@@ -16,20 +16,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-    const menuBar = document.getElementById("menu-bar");
-    const navLinks = document.querySelector("nav ul");
-    menuBar.addEventListener("click", function () {
-        navLinks.classList.toggle("active");
-    });
-});
-
-document.querySelectorAll("nav a").forEach(link => {
-    link.addEventListener("click", () => {
-        document.querySelector(".nav-links").classList.remove("active");
-    });
-});
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function (e) {
         e.preventDefault();
@@ -41,5 +27,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: "smooth"
         });
     });
+});
+
+document.getElementById("menu-bar").addEventListener("click", function() {
+    document.querySelector(".nav-links").classList.toggle("active");
 });
 

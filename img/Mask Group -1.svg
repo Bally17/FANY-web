@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
   <defs>
     <clipPath id="clip-path">
@@ -8,3 +9,15 @@
     <path id="angle-small-down_4_" data-name="angle-small-down (4)" d="M38.085,23.123a1.736,1.736,0,0,0-2.465,0l-7.951,7.951a1.736,1.736,0,0,1-2.465,0l-7.951-7.951a1.737,1.737,0,1,0-2.465,2.448l7.969,7.969a5.208,5.208,0,0,0,7.361,0l7.969-7.969A1.736,1.736,0,0,0,38.085,23.123Z" transform="translate(1548.718 4614.318)" fill="#31b2ff"/>
   </g>
 </svg>
+=======
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_20" data-name="Rectangle 20" width="24" height="24" transform="translate(1563.154 4631.154)" fill="#31b2ff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_10" data-name="Mask Group 10" transform="translate(1587.154 4655.154) rotate(180)" clip-path="url(#clip-path)">
+    <path id="angle-small-down_4_" data-name="angle-small-down (4)" d="M38.085,23.123a1.736,1.736,0,0,0-2.465,0l-7.951,7.951a1.736,1.736,0,0,1-2.465,0l-7.951-7.951a1.737,1.737,0,1,0-2.465,2.448l7.969,7.969a5.208,5.208,0,0,0,7.361,0l7.969-7.969A1.736,1.736,0,0,0,38.085,23.123Z" transform="translate(1548.718 4614.318)" fill="#31b2ff"/>
+  </g>
+</svg>
+>>>>>>> 9aef16f (oprava paddingov a hamburger menu)
