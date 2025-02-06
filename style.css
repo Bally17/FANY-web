@@ -560,11 +560,17 @@ span {
     padding: 32px;
     gap: 32px;
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.links-list:hover {
+    background-color: #1e3350;
 }
 
 .links-list img {
     height: 90px;
     width: auto;
+    filter: none;
 }
 
 .links-list aside {
