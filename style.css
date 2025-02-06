@@ -681,7 +681,7 @@ footer h3 {
     .first section {
         align-items: center;
         text-align: center;
-        padding: 100px 100px;
+        padding: 100px 100px 0px;
     }
 
     .icons {
