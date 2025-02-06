@@ -125,9 +125,11 @@ a {
 .second {
     width: 100%;
     height: auto;
+    padding: 128px 8%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0F1F3D;
 }
 
 .second section{
@@ -135,10 +137,9 @@ a {
     flex-direction: row-reverse; 
     justify-content: center;
     align-items: center;
-    padding: 128px 12%;
-    gap: 64px;
+    gap: 32px;
     color: white;
-    max-width: 2000px;
+    max-width: 1450px;
 }
 
 .second img {
@@ -161,7 +162,7 @@ a {
     font-weight: 600;
 }
 
-.icons {
+/* .icons {
     width: 100%;
     height: auto;
     display: flex;
@@ -204,12 +205,12 @@ a {
     font-size: 26px;
     font-weight: 600;
     color: white;
-}
+} */
 
 .third {
     width: 100%;
     height: auto;
-    background-color: #0F1F3D;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,7 +253,7 @@ span {
 }
 
 .icons-box-second {
-    background: linear-gradient(#0B111C, #0F1F3D);
+    background: linear-gradient(#0F1F3D, #0B111C);
     border: none;
     display: flex;
     justify-content: center;
@@ -316,6 +317,13 @@ span {
 .fourth section img {
     height: auto;
     max-width: 610px;
+    border-radius: 16px;
+}
+
+.fourth-bottom-img {
+    display: none;
+    height: auto;
+    width: 100%;
     border-radius: 16px;
 }
 
@@ -633,22 +641,16 @@ footer h3 {
 
     .nav-links.active {
         transform: translateX(0);
-    }
-
-    .second section {
-        flex-direction: column;
-    }
-
-    .second aside {
-        text-align: center;
-    }
-
-    .second section{
-        padding: 128px 16%;
-    }
+    }    
 }
 
 @media (max-width: 1860px) {
+    .fourth {
+        padding: 64px 10%;
+    }
+}
+
+@media (max-width: 1668px) {
     .fourth-img {
         display: none;
     }
@@ -686,13 +688,11 @@ footer h3 {
         display: none;
     }
 
-    
-
     .third, .sixth {
         padding: 64px 10% 128px;
     }
 
-    .fourth, .fifth {
+    .fifth {
         padding: 64px 10%;
     }
 
@@ -713,6 +713,24 @@ footer h3 {
     }
 }
 
+@media (max-width: 1080px) {
+    .second section {
+        flex-direction: column;
+    }
+
+    .second aside {
+        text-align: center;
+    }
+
+    .second {
+        padding: 13%;
+    }
+
+    .fourth-bottom-img {
+        display: block;
+    }
+}
+
 @media (max-width: 810px) {
     .icons-box-second ul {
         display: flex;
@@ -723,7 +741,8 @@ footer h3 {
 
 @media (max-width: 740px) {
     .second section img {
-        display: none;
+        height: auto;
+        width: 100%;
     }
 
     .first{
@@ -754,7 +773,5 @@ footer h3 {
 }
 
 @media (max-width: 568px) {
-    .second section{
-        padding: 32px 12% 128px;
-    }
+    
 }
