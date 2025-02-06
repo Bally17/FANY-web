@@ -129,7 +129,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0F1F3D;
 }
 
 .second section{
@@ -298,6 +297,7 @@ span {
     align-items: center;
     padding: 64px 300px;
     gap: 35px;
+    background-color: #0F1F3D;
 }
 
 .fourth h1 {
