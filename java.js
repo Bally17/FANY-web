@@ -16,20 +16,48 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute("href"));
-        const offset = 10;
+document.querySelectorAll('a[href^="#"], button[onclick^="location.href=\'#"]').forEach(element => {
+  element.addEventListener("click", function (e) {
+      e.preventDefault();
 
-        window.scrollTo({
-            top: target.offsetTop - offset,
-            behavior: "smooth"
-        });
-    });
+      let targetId;
+
+      if (this.tagName === "A") {
+          targetId = this.getAttribute("href");
+      } else if (this.tagName === "BUTTON") {
+          const match = this.getAttribute("onclick").match(/'#([^']+)'/);
+          if (match) {
+              targetId = `#${match[1]}`;
+          }
+      }
+
+      const target = document.querySelector(targetId);
+      const offset = 10;
+
+      if (target) {
+          const targetPosition = target.getBoundingClientRect().top + window.scrollY - offset;
+
+          window.scrollTo({
+              top: targetPosition,
+              behavior: "smooth"
+          });
+      }
+  });
 });
 
 document.getElementById("menu-bar").addEventListener("click", function() {
     document.querySelector(".nav-links").classList.toggle("active");
 });
 
+document.querySelectorAll('.links-list').forEach(div => {
+  div.addEventListener("click", function () {
+      const url = this.getAttribute("data-url");
+      if (url) {
+          window.open(url, "_blank");
+      }
+  });
+});
+
+document.querySelectorAll('a[href^="http"]').forEach(link => {
+  link.setAttribute("target", "_blank");
+});

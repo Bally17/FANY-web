@@ -14,10 +14,10 @@
     <article class="first">
         <nav>
             <ul class="nav-links">
-                <li><a href="#o-mne">O mne</a></li>
-                <li><a href="#">inventáž</a></li>
-                <li><a href="#kupa-skinu">kúpa skinu</a></li>
                 <li><a href="#vykup-skinu">výkup skinu</a></li>
+                <li><a href="#o-mne">O mne</a></li>
+                <li><a href="https://steamcommunity.com/id/fanyskins/inventory/">inventáž</a></li>
+                <li><a href="#kupa-skinu">kúpa skinu</a></li>
                 <li><a href="#recenzie">recenzie</a></li>
                 <li><a href="#faqs">faqs</a></li>
                 <li><a href="#kontakt">kontakt</a></li>
@@ -31,8 +31,8 @@
             Kupuj a prodávej skiny s Fanym.<br>
             Rychlé traidovaní, prémiové skiny, super ceny
             <div>
-                <button type="button">Prodat skiny</button>
-                <button type="button">Koupit skiny</button>
+                <button type="button" onclick="location.href='#vykup-skinu'">Prodat skiny</button>
+                <button type="button" onclick="location.href='#kupa-skinu'">Koupit skiny</button>
             </div>
         </section>
     </article>
@@ -83,7 +83,7 @@
         </div>
         <h2>Na ceně sa môžeme vždy domluvit !</h2>
         <p>Pokud máš zájem něco prodat, neváhej mě kontaktovat, jdem ochoten vykoupt opravdu cokoliv !</p>
-        <button type="button" class="btn">Prodat skiny</button>
+        <button type="button" onclick="window.open('https://www.facebook.com/fanycsgoshop', '_blank')" class="btn">Prodat skiny</button>
     </article>
     <article id="o-mne" class="second">
         <section>
@@ -124,7 +124,7 @@
                 </ul>
             </aside>
         </section>
-        <button type="button" class="btn">Prohlédnout inventáž</button>
+        <button type="button" onclick="window.open('https://steamcommunity.com/id/fanyskins/inventory/', '_blank')" class="btn">Prohlédnout inventáž</button>
         <img src="/img/NoPath - Copy (23).png" alt="" class="fourth-bottom-img">
     </article>
     <article id="recenzie" class="fifth">
@@ -192,7 +192,7 @@
                 </aside>
             </section>
         </div>
-        <button type="button" class="btn">Prohlédnout všechny recenze</button>
+        <button type="button" onclick="window.open('https://www.facebook.com/fanycsgoshop/reviews', '_blank')" class="btn">Prohlédnout všechny recenze</button>
     </article>
     <article id="faqs" class="sixth">
         <h1>FAQ</h1>
@@ -247,14 +247,14 @@
     <article id="kontakt" class="seventh">
         <h1>Kontaktuj mě přes tyto sociální sítě!</h1>
         <div class="links-box">
-            <div class="links-list">
+            <div class="links-list" data-url="https://www.facebook.com/fanycsgoshop/">
                 <img src="/img/Mask Group 11.png" alt="">
                 <aside class="links-list-text">
                     <h2>facebook</h2>
                     <p>Hlavní kontakt k nákupu a prodeji skinú</p>
                 </aside>
             </div>
-            <div class="links-list">
+            <div class="links-list" data-url="https://steamcommunity.com/id/fanyskins">
                 <img src="/img/Mask Group 12.png" alt="">
                 <aside class="links-list-text">
                     <h2>steam</h2>
